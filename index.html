@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Saadat Library — Redirecting…</title>
+<meta name="description" content="Saadat Library — buy, sell and donate course books. Taking you to the latest site address.">
+<meta name="theme-color" content="#FFF6EC" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E0E11" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--orange:#FF6A2B;--orange-dark:#E85818;--ink:#141418;--muted:#8B8B95;--line:#E2E2E8;--bg:#fff;--page:#F7F7F9;
+  --logo:#000;--sub:#6B6B75;--warm1:#FFE4CC;--warm2:#FFF6EC;--surface:#fff;--deco:rgba(255,255,255,.65);
+  --ease:cubic-bezier(.22,1,.36,1);color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--ink:#F2F2F5;--muted:#9494A1;--line:#25252C;--bg:#151519;--page:#0E0E11;
+  --logo:#fff;--sub:#A1A1AD;--warm1:#2A1A10;--warm2:#17110D;--surface:#151519;--deco:rgba(255,255,255,.05);color-scheme:dark}}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{font-family:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;background:radial-gradient(120% 90% at 50% -10%,var(--warm1) 0%,var(--warm2) 45%,var(--surface) 80%) fixed;color:var(--ink);
+  -webkit-font-smoothing:antialiased;display:grid;place-items:center;overflow:hidden;padding:24px;
+  padding-top:max(24px,env(safe-area-inset-top));padding-bottom:max(24px,env(safe-area-inset-bottom));
+  transition:opacity .35s ease,transform .35s var(--ease);-webkit-tap-highlight-color:transparent}
+body.leaving{opacity:0;transform:scale(1.03)}
+::selection{background:var(--orange);color:#fff}
+.deco{position:fixed;inset:0;pointer-events:none;overflow:hidden}
+.deco span{position:absolute;display:grid;place-items:center;border-radius:20px;color:var(--orange);background:var(--deco);border:1px solid rgba(255,106,43,.14);box-shadow:0 14px 30px -16px rgba(255,106,43,.35);animation:drift 7s ease-in-out infinite}
+.deco svg{width:50%;height:50%;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.d1{width:58px;height:58px;left:9%;top:22%;rotate:-10deg}.d2{width:44px;height:44px;left:16%;bottom:15%;rotate:8deg;animation-delay:-2s;border-radius:15px}
+.d3{width:64px;height:64px;right:9%;top:18%;rotate:9deg;animation-delay:-4s}.d4{width:46px;height:46px;right:15%;bottom:19%;rotate:-7deg;animation-delay:-1s;border-radius:15px}
+@keyframes drift{50%{translate:0 -12px}}
+@media (max-width:900px){.deco{display:none}}
+main{position:relative;width:100%;max-width:380px;text-align:center;display:flex;flex-direction:column;align-items:center}
+.logo{display:block;width:76px;height:76px;margin-bottom:26px;fill:var(--logo);user-select:none}
+@keyframes up{from{opacity:0;transform:translateY(14px)}}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);animation:up .6s var(--ease) .15s both}
+h1{font-size:clamp(28px,7.6vw,34px);line-height:1.12;font-weight:800;letter-spacing:-.035em;margin:8px 0 12px;text-wrap:balance;animation:up .6s var(--ease) .25s both}
+h1 em{font-style:normal;color:var(--orange)}
+.sub{font-size:15px;color:var(--sub);line-height:1.5;animation:up .6s var(--ease) .35s both}
+.bar{width:min(58%,190px);height:4px;border-radius:99px;background:var(--line);overflow:hidden;margin:30px auto 16px;animation:up .6s var(--ease) .45s both}
+.bar i{display:block;height:100%;width:0;border-radius:inherit;background:linear-gradient(90deg,var(--orange),#FF9A5C);
+  transition:width 0ms linear}
+.dest{display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:500;color:var(--muted);min-height:20px;animation:up .6s var(--ease) .55s both}
+.dest svg{width:13px;height:13px;stroke:var(--orange);fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.help{margin-top:26px;opacity:0;visibility:hidden;transform:translateY(8px);transition:all .5s var(--ease)}
+.help.show{opacity:1;visibility:visible;transform:none}
+.help p{font-size:13px;color:var(--muted);margin-bottom:12px}
+.btn{display:inline-block;background:var(--orange);color:#fff;font-weight:600;font-size:15px;padding:13px 26px;border-radius:14px;
+  text-decoration:none;box-shadow:0 10px 24px -10px rgba(255,106,43,.7);transition:transform .2s var(--ease),background .2s}
+.btn:hover{background:var(--orange-dark);transform:translateY(-2px)}
+.btn:active{transform:scale(.97)}
+.btn:focus-visible{outline:2px solid var(--orange);outline-offset:3px}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+</style>
+</head>
+<body>
+<div class="deco" aria-hidden="true"><span class="d1"><svg viewBox="0 0 24 24"><path d="M4 5a2 2 0 012-2h13v16H6a2 2 0 00-2 2z"/><path d="M4 19V5M9 8h6"/></svg></span><span class="d2"><svg viewBox="0 0 24 24"><path d="M12 6c-2-1.5-5-2-9-2v14c4 0 7 .5 9 2 2-1.5 5-2 9-2V4c-4 0-7 .5-9 2zM12 6v14"/></svg></span><span class="d3"><svg viewBox="0 0 24 24"><path d="M4 5a2 2 0 012-2h13v16H6a2 2 0 00-2 2z"/><path d="M4 19V5M9 8h6"/></svg></span><span class="d4"><svg viewBox="0 0 24 24"><path d="M12 6c-2-1.5-5-2-9-2v14c4 0 7 .5 9 2 2-1.5 5-2 9-2V4c-4 0-7 .5-9 2zM12 6v14"/></svg></span></div>
+<main role="status" aria-live="polite">
+  <svg class="logo" viewBox="0 0 132 132" aria-hidden="true"><g transform="translate(4.56 16.275)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M64.48,0.38h18.42c1.85,0,3.36,1.51,3.36,3.36v14.84H61.12V3.74C61.12,1.89,62.63,0.38,64.48,0.38L64.48,0.38z M86.27,27.65v45.19H61.12V27.65H86.27L86.27,27.65z M86.27,81.92v13.8c0,1.85-1.51,3.36-3.36,3.36H64.48 c-1.85,0-3.36-1.51-3.36-3.36v-13.8H86.27L86.27,81.92z"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M101.09,0.38h18.42c1.85,0,3.36,1.51,3.36,3.36v14.84h-0.02H97.73V3.74C97.73,1.89,99.25,0.38,101.09,0.38 L101.09,0.38z M122.88,27.65v45.19H97.73V27.65h25.13H122.88L122.88,27.65z M122.88,81.92v13.8c0,1.85-1.51,3.36-3.36,3.36h-18.42 c-1.85,0-3.36-1.51-3.36-3.36v-13.8H122.88L122.88,81.92z"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M35.95,0.2l17.31,6.3c1.74,0.63,2.64,2.57,2.01,4.31L50.2,24.75l-23.63-8.6l5.07-13.94 C32.28,0.47,34.22-0.43,35.95,0.2L35.95,0.2z M47.1,33.28L31.65,75.75l-23.63-8.6l15.45-42.46L47.1,33.28L47.1,33.28z M28.55,84.28 l-4.72,12.96c-0.63,1.74-2.57,2.64-4.31,2.01l-17.31-6.3c-1.74-0.63-2.64-2.57-2.01-4.31l4.72-12.96L28.55,84.28L28.55,84.28z"/>
+    </g></svg>
+  <p class="eyebrow">One moment</p>
+  <h1>Taking you to <em>Saadat Library</em></h1>
+  <p class="sub">Buy, sell and donate course books.<br>Finding our latest address…</p>
+  <div class="bar" id="bar"><i></i></div>
+  <div class="dest" id="dest"><svg viewBox="0 0 24 24"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/></svg><span id="host">Secure redirect</span></div>
+  <div class="help" id="help"><p>Taking longer than usual?</p><a class="btn" id="go" href="#">Open Saadat Library</a></div>
+  <noscript><p class="sub" style="margin-top:20px">JavaScript is off. <a class="btn" href="https://your-website.com/">Open Saadat Library</a></p></noscript>
+</main>
+<script>
+(function(){
+  // Last-resort address, used only if site.json can't be read and nothing is cached.
+  var FALLBACK="https://your-website.com/";
+  var MIN_SHOW=900;      // ms the animation plays (keeps it from flashing)
+  var MAX_WAIT=2500;     // ms before we give up on the network and use the cache/fallback
+  var KEY="sl_target", t0=Date.now(), done=false;
+  var $=function(i){return document.getElementById(i)};
+  var q=location.search;
+  if(/(^|[?&])noredirect\b/.test(q)){ $("help").classList.add("show"); }   // preview mode: ?noredirect
+
+  function clean(u){
+    try{var x=new URL(u); if(x.protocol!=="https:") return null; return x.href;}catch(e){return null}
+  }
+  function cached(){try{return clean(localStorage.getItem(KEY))}catch(e){return null}}
+  function remember(u){try{localStorage.setItem(KEY,u)}catch(e){}}
+  function withExtras(u){
+    var x=new URL(u); // carry over ?query and #hash so shared links keep working
+    var p=new URLSearchParams(location.search); p.delete("noredirect");
+    p.forEach(function(v,k){x.searchParams.append(k,v)});
+    if(location.hash) x.hash=location.hash;
+    return x.href;
+  }
+  function go(u){
+    if(done) return; done=true;
+    var target=withExtras(u);
+    try{$("host").textContent=new URL(u).host}catch(e){}
+    $("go").href=target;
+    if(/(^|[?&])noredirect\b/.test(q)) return;
+    var wait=Math.max(0,MIN_SHOW-(Date.now()-t0));
+    fill(wait+260);   // finish the bar exactly when the page leaves
+    setTimeout(function(){
+      document.body.classList.add("leaving");
+      setTimeout(function(){location.replace(target)},260);
+    },wait);
+  }
+
+  // progress bar: eases toward 90% while we wait, then completes in step with the real redirect time
+  var fillEl=$("bar").firstElementChild;
+  function fill(ms,pct){ void fillEl.offsetWidth; fillEl.style.transition="width "+ms+"ms "+(pct?"cubic-bezier(.2,.7,.2,1)":"linear"); fillEl.style.width=(pct||100)+"%"; }
+  requestAnimationFrame(function(){requestAnimationFrame(function(){if(!done)fill(MIN_SHOW,90)})});
+
+  // show the cached host straight away (better perceived speed)
+  var c=cached(); if(c){try{$("host").textContent=new URL(c).host}catch(e){}}
+  $("go").href=c||FALLBACK;
+  setTimeout(function(){$("help").classList.add("show")},4000);
+
+  // fetch the live address (same-origin file, updated by the release workflow)
+  var ctl=window.AbortController?new AbortController():null;
+  var timer=setTimeout(function(){ctl&&ctl.abort(); go(cached()||FALLBACK)},MAX_WAIT);
+  fetch("site.json?t="+Date.now(),{cache:"no-store",signal:ctl&&ctl.signal})
+    .then(function(r){if(!r.ok)throw 0;return r.json()})
+    .then(function(d){var u=clean(d&&d.url); if(!u)throw 0; clearTimeout(timer); remember(u); go(u)})
+    .catch(function(){clearTimeout(timer); go(cached()||FALLBACK)});
+})();
+</script>
+</body>
+</html>
